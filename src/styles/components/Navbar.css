@@ -1,0 +1,7 @@
+.nav-container {
+  padding: 20px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: yellow;
+}
