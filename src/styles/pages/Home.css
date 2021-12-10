@@ -1,3 +1,6 @@
+* {
+  color: #e2e5ff;
+}
 body {
-  background-color: blue;
+  background: #383b50 !important;
 }

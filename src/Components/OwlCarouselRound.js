@@ -17,6 +17,7 @@ import img11 from "../images/11.jpg";
 import img12 from "../images/12.jpg";
 function OwlCarouselRound() {
   return (
+    /* Oyun kategorileri */
     <div>
       <OwlCarousel className="owl-theme" items="12" autoplay nav dots loop>
         <div className="item">

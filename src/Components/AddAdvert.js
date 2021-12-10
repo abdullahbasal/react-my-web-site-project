@@ -5,8 +5,8 @@ function AddAdvert() {
   return (
     <>
       <button className="add-advert">
-        <Col className="blob red"></Col>
-        <Col className="btn-input">ÜCRETSİZ İLAN EKLE</Col>
+        <div className="blob red"></div>
+        <div className="btn-input">ÜCRETSİZ İLAN EKLE</div>
       </button>
     </>
   );

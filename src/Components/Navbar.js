@@ -5,20 +5,18 @@ import SignIn from "./SignIn";
 import "../styles/components/Navbar.css";
 function Navbar() {
   return (
-    <>
-      <Container className="nav-container">
-        <Row>
-          <Col>LOGO</Col>
-          <Col>
-            <Search></Search>
-          </Col>
-          <Col className="right-col">
-            <AddAdvert></AddAdvert>
-            <SignIn></SignIn>
-          </Col>
-        </Row>
-      </Container>
-    </>
+    <Container className="nav-container">
+      <Row>
+        <Col>LOGO</Col>
+        <Col>
+          <Search></Search>
+        </Col>
+        <Col className="right-col">
+          <AddAdvert></AddAdvert>
+          <SignIn></SignIn>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

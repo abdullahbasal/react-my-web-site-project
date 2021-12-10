@@ -1,0 +1,7 @@
+.category-button {
+  cursor: pointer;
+  margin: 10px 0px;
+}
+.category-button-border {
+  border: 3px solid #3f4257;
+}
