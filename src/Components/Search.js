@@ -5,7 +5,7 @@ function Search() {
   return (
     <Container>
       <Row>
-        <Col>sadsad</Col>
+        <Col>Arama çubuğu typed js ile yaziçini</Col>
       </Row>
     </Container>
   );

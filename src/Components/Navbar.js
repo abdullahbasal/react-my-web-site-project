@@ -1,17 +1,20 @@
 import { Container, Row, Col } from "react-bootstrap";
 import AddAdvert from "./AddAdvert";
-import Search from "./Search";
+import NavbarList from "./NavbarList";
 import SignIn from "./SignIn";
+import Logo from "./Logo";
 import "../styles/components/Navbar.css";
 function Navbar() {
   return (
     <Container className="nav-container">
-      <Row>
-        <Col>LOGO</Col>
-        <Col>
-          <Search></Search>
+      <Row className="nav-container-row">
+        <Col md="3">
+          <Logo img="https://duobul.net/src/images/duobul_logotext_rect_new.png" />
         </Col>
-        <Col className="right-col">
+        <Col md="5">
+          <NavbarList></NavbarList>
+        </Col>
+        <Col className="right-col" md="4">
           <AddAdvert></AddAdvert>
           <SignIn></SignIn>
         </Col>

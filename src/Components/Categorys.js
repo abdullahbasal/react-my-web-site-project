@@ -14,7 +14,7 @@ function Categorys() {
             <CategoryButton title="DİSCORD SUNUCULARI"></CategoryButton>
           </Col>
           <Col>
-            <CategoryButton title="BİLGİSAYAR OYUNLARI"></CategoryButton>
+            <CategoryButton title="TWİTCH KANALLARI"></CategoryButton>
           </Col>
           <Col>
             <CategoryButton title="YOUTUBE KANALLARI"></CategoryButton>

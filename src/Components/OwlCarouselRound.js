@@ -1,8 +1,10 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
+import { Row } from "react-bootstrap";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import "../styles/components/OwlCarouselRound.css";
+import Search from "./Search";
 import img1 from "../images/1.jpg";
 import img2 from "../images/2.jpg";
 import img3 from "../images/3.jpg";
@@ -19,6 +21,9 @@ function OwlCarouselRound() {
   return (
     /* Oyun kategorileri */
     <div>
+      <Row>
+        <Search></Search>
+      </Row>
       <OwlCarousel className="owl-theme" items="12" autoplay nav dots loop>
         <div className="item">
           <img src={img1}></img>
