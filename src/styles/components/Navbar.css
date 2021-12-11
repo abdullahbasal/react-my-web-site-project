@@ -6,3 +6,10 @@
   background-color: #323448;
   max-width: 100% !important;
 }
+.logo-col {
+  width: 300px !important;
+}
+.right-col {
+  text-align: center;
+  vertical-align: middle;
+}

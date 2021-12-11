@@ -6,7 +6,7 @@ function HorizontalBanner(props) {
     <Container className="banner">
       <Col>
         <a href={props.url}>
-          <img src={props.img} />
+          <img className="banner-img" src={props.img} />
         </a>
       </Col>
     </Container>

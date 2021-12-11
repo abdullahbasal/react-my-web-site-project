@@ -11,8 +11,8 @@ import Footer from "../Components/Footer";
 function Home() {
   return (
     <>
-      <Navbar></Navbar>
       <Container>
+        <Navbar></Navbar>
         <OwlCarouselRound></OwlCarouselRound>
         <Slider></Slider>
         <Annonce></Annonce>
