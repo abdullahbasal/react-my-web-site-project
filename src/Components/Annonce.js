@@ -11,7 +11,7 @@ function Annonce() {
         <Row className="justify-content-md-center">
           <Col xs lg="2">
             <br />
-            <br />
+
             <img src={megaphone} />
           </Col>
           <Col md="7">
@@ -26,7 +26,7 @@ function Annonce() {
           </Col>
           <Col xs lg="3">
             <br />
-            <br />
+
             <AddAdvert></AddAdvert>
           </Col>
         </Row>

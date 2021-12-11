@@ -7,8 +7,8 @@ import "../styles/components/Navbar.css";
 import NavbarList from "./NavbarList";
 function Navbar() {
   return (
-    <>
-      <Container className="nav-container">
+    <div className="nav-container">
+      <Container>
         <Row className="nav-container-row justify-content-md-center">
           <Col className="logo-col">
             <Logo img="https://duobul.net/src/images/duobul_logotext_rect_new.png" />
@@ -22,12 +22,12 @@ function Navbar() {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container className="navbar-list-container">
         <Row>
           <NavbarList></NavbarList>
         </Row>
       </Container>
-    </>
+    </div>
   );
 }
 
