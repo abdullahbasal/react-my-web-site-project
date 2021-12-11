@@ -12,6 +12,7 @@ import GameCategory from "../Components/GameCategory";
 import OtherCategorys from "../Components/OtherCategorys";
 import Info from "../Components/Info";
 import HomeBlogPosts from "../Components/HomeBlogPosts";
+import ImagesComp from "../Components/ImagesComp";
 function Home() {
   return (
     <>
@@ -22,12 +23,13 @@ function Home() {
         <Annonce></Annonce>
         <Categorys></Categorys>
         <GameCategory></GameCategory>
+        <ImagesComp></ImagesComp>
+        <OtherCategorys></OtherCategorys>
+        <HomeBlogPosts></HomeBlogPosts>{" "}
         <HorizontalBanner
           img="https://i.hizliresim.com/hzyfspf.jpg"
           url="https://accounts.binance.com/tr/register?ref=23719615"
         ></HorizontalBanner>
-        <OtherCategorys></OtherCategorys>
-        <HomeBlogPosts></HomeBlogPosts>
         <Info></Info>
         <Footer></Footer>
       </Container>
