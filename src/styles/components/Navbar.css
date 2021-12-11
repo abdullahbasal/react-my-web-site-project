@@ -1,5 +1,5 @@
 .nav-container {
-  padding: 20px 0px 0px 10px;
+  padding: 20px 0px 0px 0 px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -16,4 +16,7 @@
 
 .navbar-list-container {
   bottom: 0;
+  padding-right: 0px;
+  padding-left: 0x;
+  max-width: 100% !important;
 }

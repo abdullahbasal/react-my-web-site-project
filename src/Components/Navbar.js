@@ -5,9 +5,11 @@ import SignIn from "./SignIn";
 import Logo from "./Logo";
 import "../styles/components/Navbar.css";
 import NavbarList from "./NavbarList";
+import NavbarTop from "./NavbarTop";
 function Navbar() {
   return (
     <div className="nav-container">
+      <NavbarTop></NavbarTop>
       <Container>
         <Row className="nav-container-row justify-content-md-center">
           <Col className="logo-col">

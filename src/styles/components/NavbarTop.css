@@ -1,0 +1,22 @@
+.navbar-top-container {
+  background-color: #25273a;
+  height: 30px;
+  max-width: 100% !important;
+}
+ul {
+  list-style: none;
+  display: block;
+}
+li {
+  display: inline-block;
+  margin: 0px 10px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #25273a;
+}
+li:hover {
+  border-bottom: 1px solid #5962ca;
+  cursor: pointer;
+}
+.navbar-top-list {
+  text-align: right;
+}
