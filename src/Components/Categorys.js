@@ -7,30 +7,30 @@ function Categorys() {
     <>
       <Container>
         <Row>
-          <Col>
+          <Col md="3">
             <CategoryButton title="BİLGİSAYAR OYUNLARI"></CategoryButton>
           </Col>
-          <Col>
+          <Col md="3">
             <CategoryButton title="DİSCORD SUNUCULARI"></CategoryButton>
           </Col>
-          <Col>
+          <Col md="3">
             <CategoryButton title="TWİTCH KANALLARI"></CategoryButton>
           </Col>
-          <Col>
+          <Col md="3">
             <CategoryButton title="YOUTUBE KANALLARI"></CategoryButton>
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md="3">
             <CategoryButton title="HESAP İLANLARI"></CategoryButton>
           </Col>
-          <Col>
+          <Col md="3">
             <CategoryButton title="SİTE TANITIMLARI"></CategoryButton>
           </Col>
-          <Col>
+          <Col md="3">
             <CategoryButton title="SERVER TANITIMLARI"></CategoryButton>
           </Col>
-          <Col>
+          <Col md="3">
             <CategoryButton title="TAKIMLAR"></CategoryButton>
           </Col>
         </Row>
