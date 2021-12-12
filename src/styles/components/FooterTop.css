@@ -1,9 +1,27 @@
-.footer-top div {
+.footer-top {
+  max-width: 100% !important;
+  padding: 0px 40px;
+  margin: 0px;
+  text-align: center;
+}
+.footer-top-div {
   display: inline-block;
   border-right: 3px solid #57596f;
-  width: 33%;
+  width: 30%;
   text-align: center;
+  margin: 20px 10px;
 }
 .footer-top div:last-child {
   border-right: 0px solid white;
+}
+.footer-top {
+  background-color: #323448;
+}
+.footer-top-title {
+  font-weight: bold;
+  color: #ffffff;
+}
+.footer-top-paragraph {
+  color: #979aae;
+  font-size: 16px;
 }

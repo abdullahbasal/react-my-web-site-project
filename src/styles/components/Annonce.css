@@ -1,6 +1,8 @@
 .annonce-container {
-  background: #65605e;
+  background: #2f3144;
   color: black;
+  border-radius: 5px;
+  margin: 20px 0px;
 }
 .annonce-container {
   text-align: center;

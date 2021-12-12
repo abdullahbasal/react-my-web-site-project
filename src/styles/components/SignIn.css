@@ -5,4 +5,8 @@
   width: 33%;
   height: 40px;
   border: 0px solid #f76707;
+  opacity: 0.9;
+}
+.sign-in:hover {
+  opacity: 1;
 }

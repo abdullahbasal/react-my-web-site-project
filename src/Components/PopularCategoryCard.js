@@ -12,7 +12,7 @@ export default function PopularCategoryCard() {
             variant="top"
             src="https://cdn.gracza.pl/galeria/gry13/1974317d.jpg"
           />
-          <Card.Body>
+          <Card.Body className="card-body">
             <Card.Title>Card title</Card.Title>
             <Card.Text>
               This is a longer card with supporting text below as a natural

@@ -1,0 +1,16 @@
+.info-container {
+  background-color: #2f3144;
+  border-radius: 5px;
+  border: 2px solid #2f3144;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.info-img-col {
+  margin: 0px;
+  padding: 0px;
+}
+.info-container-img {
+  width: fill-available;
+  max-width: 100%;
+  cursor: pointer;
+}

@@ -1,12 +1,30 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
-
+import { Col, Container, Row } from "react-bootstrap";
+import "../styles/components/Info.css";
+import ShowMoreText from "react-show-more-text";
+import MyButton from "./MyButton";
 export default function Info() {
   return (
-    <Container>
-      <Row>resim</Row>
-      <p>
-        {" "}
+    <Container className="info-container">
+      <Row>
+        <Col className="info-img-col">
+          <img
+            src="https://cdn.itemsatis.com/uploads/admin/FONcnLeKAak1u3x2i4HTzbqwv.png"
+            className="info-container-img"
+          />
+        </Col>
+      </Row>
+      <ShowMoreText
+        /* Default options */
+        lines={5}
+        more="Devamını Göster"
+        less="Daha Az Göster"
+        className="content-css"
+        anchorClass="my-anchor-css-class"
+        expanded={false}
+        width={1000}
+        truncatedEndingComponent={"... "}
+      >
         Türkiye'nin En Büyük İtem, Hesap, Skin, Epin Satış Sitesi | İtemsatış
         İtemSatış Türkiye'deki bilgisayar, konsol ve mobil oyuncularına en
         kaliteli hizmeti verebilmek adına kurulmuştur. Genç, dinamik ve sektörü
@@ -197,7 +215,7 @@ export default function Info() {
         haberdar olabilirsiniz. Bunun yanı sıra takibe alarak bize destek
         olabilirsiniz. İnstagram Hesabımız Facebook Sayfamız Youtube Kanalımız
         Twitter Profilimiz Pinterest Hesabımız
-      </p>
+      </ShowMoreText>
     </Container>
   );
 }

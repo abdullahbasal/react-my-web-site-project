@@ -1,0 +1,10 @@
+.category-container {
+  margin: 20px 0px;
+}
+.category-col {
+  cursor: pointer;
+  color: #d7d8e6;
+}
+.category-col:hover {
+  color: white;
+}

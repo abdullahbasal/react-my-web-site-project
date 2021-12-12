@@ -1,3 +1,13 @@
 .blog-post-card {
   width: 18rem;
+  cursor: pointer;
+}
+.blog-post-img {
+  opacity: 0.9;
+}
+.blog-post-img:hover {
+  opacity: 1;
+}
+.blog-post-card-footer {
+  background-color: #191a27 !important;
 }

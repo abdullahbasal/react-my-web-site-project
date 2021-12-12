@@ -13,6 +13,10 @@
   word-break: break-all;
   margin-right: 20px;
   margin-top: 18px;
+  opacity: 0.9;
+}
+.add-advert:hover {
+  opacity: 1;
 }
 .btn-input {
   display: inline-block;

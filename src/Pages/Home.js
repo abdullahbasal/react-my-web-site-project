@@ -14,6 +14,7 @@ import Info from "../Components/Info";
 import HomeBlogPosts from "../Components/HomeBlogPosts";
 import ImagesComp from "../Components/ImagesComp";
 import PopularCategorys from "../Components/PopularCategorys";
+
 function Home() {
   return (
     <>
@@ -33,8 +34,8 @@ function Home() {
           url="https://accounts.binance.com/tr/register?ref=23719615"
         ></HorizontalBanner>
         <Info></Info>
-        <Footer></Footer>
       </Container>
+      <Footer></Footer>
     </>
   );
 }

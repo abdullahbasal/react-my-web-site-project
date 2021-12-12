@@ -1,6 +1,7 @@
 .navbar-list {
   text-align: center;
   background-color: #25273a;
+  color: #d9dad8;
 }
 .list-img {
   height: 20px;
@@ -19,4 +20,12 @@
   padding: 0px;
   margin: 0px;
   text-align: center;
+}
+.navbar-col:hover {
+  background-color: #191a27;
+  color: white;
+  cursor: pointer;
+}
+.navbar-col:hover p {
+  color: white;
 }

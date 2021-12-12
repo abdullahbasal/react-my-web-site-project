@@ -1,11 +1,29 @@
-.img1 {
+.slider-near-img1 {
   width: 80%;
   height: 140px;
   float: right;
   margin: 8px 0px;
+  border-radius: 10px;
+  opacity: 0.9;
 }
-.img2 {
+.slider-near-img2 {
   float: right;
   width: 80%;
   height: 140px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.slider-near-img1:hover,
+.slider-near-img2:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+  cursor: pointer;
+  opacity: 1;
+}
+.slider-carousel,
+.slider-carousel img {
+  border-radius: 10px;
+  cursor: pointer;
 }

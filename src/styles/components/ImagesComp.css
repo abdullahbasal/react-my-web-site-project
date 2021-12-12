@@ -1,4 +1,17 @@
+.images-comp-continer {
+  margin-bottom: 20px;
+}
 .images-comp-img {
   width: fill-available;
   display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.images-comp-img:hover {
+  -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04);
+  opacity: 1;
 }

@@ -1,0 +1,39 @@
+.my-button {
+  display: inline-block;
+
+  padding: 5px 7px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  outline: none;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 4px;
+
+  box-shadow: 0 9px #2f3144;
+  opacity: 0.9;
+}
+
+.my-button:hover {
+  opacity: 1;
+}
+
+.my-button:active {
+  box-shadow: 0 2px #666;
+
+  transform: translateY(2px);
+}
+.my-button-col {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}

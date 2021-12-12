@@ -1,3 +1,6 @@
+.carousel-container {
+  margin: 20px 0px;
+}
 .item {
   width: 80px;
   height: 80px;
@@ -7,4 +10,5 @@
   border-radius: 115px;
   width: 80px;
   height: 80px;
+  cursor: pointer;
 }

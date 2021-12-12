@@ -9,7 +9,7 @@ function Slider() {
   return (
     <Container>
       <Row>
-        <Col sm={8}>
+        <Col sm={8} className="slider-carousel">
           <Carousel>
             <Carousel.Item interval={1000}>
               <img
@@ -57,12 +57,12 @@ function Slider() {
         <Col sm={4}>
           <Row>
             <Col>
-              <img src={img2} className="img1"></img>
+              <img src={img2} className="slider-near-img1"></img>
             </Col>
           </Row>
           <Row>
             <Col>
-              <img src={img3} className="img2"></img>
+              <img src={img3} className="slider-near-img2"></img>
             </Col>
           </Row>
         </Col>

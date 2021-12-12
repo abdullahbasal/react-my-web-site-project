@@ -4,7 +4,7 @@ import OyunlarSimge from "../images/console.png";
 import WebSiteSimge from "../images/world-wide-web.png";
 import HesapSatisSimge from "../images/profile.png";
 import BlogSimge from "../images/blogging.png";
-import ForumSimge from "../images/chat-group.png";
+import DiscordImg from "../images/discord-logo.png";
 import "../styles/components/NavbarList.css";
 function NavbarList() {
   return (
@@ -27,8 +27,10 @@ function NavbarList() {
           <p className="navbar-list-p">BLOG</p>
         </Col>
         <Col className="navbar-col">
-          <img className="list-img" src={ForumSimge} />{" "}
-          <p className="navbar-list-p"> FORUM</p>
+          <img className="list-img" src={DiscordImg} />{" "}
+          <a href="https://discord.gg/bSUGrGD" target="_blank">
+            <p className="navbar-list-p"> DİSCORD</p>
+          </a>
         </Col>
       </Row>
     </Container>

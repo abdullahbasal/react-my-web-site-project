@@ -1,8 +1,19 @@
 .card-col {
   display: inline-block;
   margin: 10px 10px;
+  cursor: pointer;
+  opacity: 0.9;
 }
 .popular-category-card-img {
   height: 200px;
   object-fit: fill;
+}
+.card-col:hover {
+  opacity: 1;
+}
+.card-body {
+  background-color: #2f3144;
+}
+.card {
+  border: 0px solid white !important;
 }

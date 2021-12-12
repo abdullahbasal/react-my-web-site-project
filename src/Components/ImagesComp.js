@@ -4,7 +4,7 @@ import img1 from "../images/1.jpg";
 import "../styles/components/ImagesComp.css";
 export default function ImagesComp() {
   return (
-    <Container>
+    <Container className="images-comp-continer">
       <Row>
         <Col md="3">
           <Row>

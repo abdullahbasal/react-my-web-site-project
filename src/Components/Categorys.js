@@ -5,9 +5,9 @@ import CategoryButton from "./CategoryButton";
 function Categorys() {
   return (
     <>
-      <Container>
+      <Container className="category-container">
         <Row>
-          <Col md="3">
+          <Col className="category-col" md="3">
             <CategoryButton title="BİLGİSAYAR OYUNLARI"></CategoryButton>
           </Col>
           <Col md="3">

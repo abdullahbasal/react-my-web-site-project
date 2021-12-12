@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/components/NavbarTop.css";
-function NavbarTop(props) {
+function NavbarTop() {
   return (
     <>
       <Container className="navbar-top-container">
@@ -10,10 +10,10 @@ function NavbarTop(props) {
             <p>Türkiye'nin En Büyük İlan Sitesi</p>
           </Col>
           <Col className="navbar-top-list">
-            <ul>
-              <li>Blog</li>
-              <li>Hakkımızda</li>
-              <li>İletişim</li>
+            <ul className="navbar-list">
+              <li className="navbar-list-item">Blog</li>
+              <li className="navbar-list-item">Hakkımızda</li>
+              <li className="navbar-list-item">İletişim</li>
             </ul>
           </Col>
         </Row>

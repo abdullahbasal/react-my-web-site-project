@@ -1,21 +1,26 @@
 .navbar-top-container {
-  background-color: #25273a;
+  background-color: #191a27;
   height: 30px;
   max-width: 100% !important;
 }
-ul {
+.navbar-list {
   list-style: none;
   display: block;
 }
-li {
+.navbar-list {
+  background-color: #191a27;
+}
+.navbar-list-item {
   display: inline-block;
   padding: 0px 10px;
   margin-bottom: 2px;
-  border-bottom: 1px solid #25273a;
+  border-bottom: 1px solid #191a27;
 }
-li:hover {
+.navbar-list-item:hover {
   border-bottom: 1px solid #5962ca;
   cursor: pointer;
+  background-color: #212335;
+  color: white;
 }
 .navbar-top-list {
   text-align: right;
