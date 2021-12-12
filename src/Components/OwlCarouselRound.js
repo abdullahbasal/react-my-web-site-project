@@ -1,6 +1,5 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import { Row, Col } from "react-bootstrap";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import "../styles/components/OwlCarouselRound.css";

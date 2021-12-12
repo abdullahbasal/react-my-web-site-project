@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/components/FooterBottom.css";
-import { Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 function FooterBottom() {
   return (
     <Container className="footer-bottom">

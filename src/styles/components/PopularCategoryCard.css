@@ -1,0 +1,8 @@
+.card-col {
+  display: inline-block;
+  margin: 10px 10px;
+}
+.popular-category-card-img {
+  height: 200px;
+  object-fit: fill;
+}

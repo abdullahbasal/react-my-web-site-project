@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/components/AddAdvert.css";
-import { Col } from "react-bootstrap";
+
 function AddAdvert() {
   return (
     <>
