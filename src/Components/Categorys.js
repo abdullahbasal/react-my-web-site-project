@@ -8,7 +8,7 @@ function Categorys() {
       <Container className="category-container">
         <Row>
           <Col className="category-col" md="3">
-            <CategoryButton title="BİLGİSAYAR OYUNLARI"></CategoryButton>
+            <CategoryButton title="OYUN ARKADAŞI İLANLARI"></CategoryButton>
           </Col>
           <Col md="3">
             <CategoryButton title="DİSCORD SUNUCULARI"></CategoryButton>

@@ -28,7 +28,7 @@ function FooterBottom() {
         <Col>
           <Row>
             <Col>
-              Discord Sunucumuz
+              Discord
               <br />
               Discord Sunucumuza Katılın!
             </Col>
