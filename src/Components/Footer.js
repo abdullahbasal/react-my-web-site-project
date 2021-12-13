@@ -6,13 +6,13 @@ import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
     <Container className="footer-container">
-      <Row>
-        <Col>
+      <Row className="footer-row">
+        <Col className="footer-col">
           <FooterTop />
         </Col>
       </Row>
-      <Row>
-        <Col>
+      <Row className="footer-row">
+        <Col className="footer-col">
           <FooterBottom />
         </Col>
       </Row>

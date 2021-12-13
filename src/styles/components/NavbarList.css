@@ -18,7 +18,7 @@
 .navbar-list-row {
   width: 100%;
   padding: 0px;
-  margin: 0px;
+  margin: 0px !important;
   text-align: center;
 }
 .navbar-col:hover {

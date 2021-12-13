@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../styles/components/NavbarTop.css";
 function NavbarTop() {
   return (
@@ -12,8 +13,13 @@ function NavbarTop() {
           <Col className="navbar-top-list">
             <ul className="navbar-list">
               <li className="navbar-list-item">Blog</li>
-              <li className="navbar-list-item">Hakkımızda</li>
-              <li className="navbar-list-item">İletişim</li>
+
+              <Link to="/about">
+                <li className="navbar-list-item">Hakkımızda</li>
+              </Link>
+              <Link to="/contact">
+                <li className="navbar-list-item">İletişim</li>
+              </Link>
             </ul>
           </Col>
         </Row>

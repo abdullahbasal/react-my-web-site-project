@@ -1,4 +1,4 @@
-.sign-in {
+.login-button {
   background-color: #f76707;
   border-radius: 8px;
   color: #ffffff;
@@ -7,6 +7,6 @@
   border: 0px solid #f76707;
   opacity: 0.9;
 }
-.sign-in:hover {
+.login-button {
   opacity: 1;
 }

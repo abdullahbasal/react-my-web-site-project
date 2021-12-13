@@ -1,11 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 import AddAdvert from "./AddAdvert";
 import Search from "./Search";
-import SignIn from "./SignIn";
 import Logo from "./Logo";
 import "../styles/components/Navbar.css";
 import NavbarList from "./NavbarList";
 import NavbarTop from "./NavbarTop";
+
+import LoginButton from "./LoginButton";
+import Login from "../Pages/Login";
+import React from "react";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="nav-container">
@@ -13,14 +17,17 @@ function Navbar() {
       <Container>
         <Row className="nav-container-row justify-content-md-center">
           <Col className="logo-col">
-            <Logo img="https://duobul.net/src/images/duobul_logotext_rect_new.png" />
+            <Link Link to="/">
+              <Logo img="https://duobul.net/src/images/duobul_logotext_rect_new.png" />
+            </Link>
           </Col>
           <Col>
             <Search></Search>
           </Col>
           <Col className="right-col">
             <AddAdvert></AddAdvert>
-            <SignIn></SignIn>
+
+            <LoginButton></LoginButton>
           </Col>
         </Row>
       </Container>
