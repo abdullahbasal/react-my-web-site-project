@@ -45,13 +45,13 @@ function FooterBottom() {
           </Row>
         </Col>
       </div>
-      <div className="footer-bottom-div">
+      <div id="footer-bottom-last-div" className="footer-bottom-div">
         <Col>
           <Row>
             <Col>
               Domainismi.com
               <br />
-              Keyifli oyunlar dileriz...
+              Keyifli oyunlar diler...
             </Col>
             <Col>
               <img src={GgImg} width={90} height={90} />
@@ -59,6 +59,21 @@ function FooterBottom() {
           </Row>
         </Col>
       </div>
+      <Row>
+        <Col style={{ verticalAlign: "middle" }}>
+          <p>
+            Domainismi.com bir{" "}
+            <a
+              href="https://www.AbdullahBasal.com"
+              target="_blank"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              AbdullahBasal
+            </a>{" "}
+            Projesidir.
+          </p>
+        </Col>
+      </Row>
     </Container>
   );
 }

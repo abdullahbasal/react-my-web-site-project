@@ -3,58 +3,58 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import "../styles/components/OwlCarouselRound.css";
-import img1 from "../images/1.jpg";
-import img2 from "../images/2.jpg";
-import img3 from "../images/3.jpg";
-import img4 from "../images/4.jpg";
-import img5 from "../images/5.jpg";
-import img6 from "../images/6.jpg";
-import img7 from "../images/7.jpg";
-import img8 from "../images/8.jpg";
-import img9 from "../images/9.jpg";
-import img10 from "../images/10.jpg";
-import img11 from "../images/11.jpg";
-import img12 from "../images/12.jpg";
+import lol from "../images/lol.jpg";
+import csgo from "../images/csgo.png";
+import minecraft from "../images/minecraft.png";
+import valorant from "../images/valorant.png";
+import pubg from "../images/pubg.png";
+import zula from "../images/zula.jpg";
+import gta5 from "../images/gta5.png";
+import discord from "../images/discord.png";
+import websitecarousel from "../images/websitecarousel.png";
+import youtube from "../images/youtube.png";
+import twitch from "../images/twitch.png";
+
 function OwlCarouselRound() {
   return (
     /* Oyun kategorileri */
     <div className="carousel-container">
       <OwlCarousel className="owl-theme" items="12" autoplay nav dots loop>
         <div className="item">
-          <img src={img1}></img>
+          <img src={lol} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img2}></img>
+          <img src={csgo} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img3}></img>
+          <img src={minecraft} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img4}></img>
+          <img src={valorant} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img5}></img>
+          <img src={pubg} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img6}></img>
+          <img src={zula} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img7}></img>
+          <img src={gta5} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img8}></img>
+          <img src={discord} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img9}></img>
+          <img src={twitch} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img10}></img>
+          <img src={websitecarousel} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img11}></img>
+          <img src={youtube} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={img12}></img>
+          <img src={valorant} width={90} height={90}></img>
         </div>
       </OwlCarousel>
     </div>

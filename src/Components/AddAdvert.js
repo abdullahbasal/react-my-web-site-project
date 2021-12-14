@@ -6,7 +6,7 @@ function AddAdvert() {
     <>
       <button className="add-advert">
         <div className="blob red"></div>
-        <div className="btn-input">ÜCRETSİZ İLAN EKLE</div>
+        <div className="btn-input advert-btn-input">ÜCRETSİZ İLAN EKLE</div>
       </button>
     </>
   );

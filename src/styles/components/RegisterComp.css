@@ -1,5 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
-
+.register-comp-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.register-left-side {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: #191a27;
+}
+.input-alert-message {
+  display: block;
+  font-size: 12px;
+  color: orange;
+  margin: 0px;
+  padding: 0px;
+}
+.register-right-side {
+  text-align: center;
+  border: 1px solid rgba(92, 88, 88, 0.261);
+  border-radius: 25px;
+  background-color: #2f3144;
+}
+.register-right-side-div {
+  margin: 30px;
+}
 .navbar-light {
   background-color: #ffffff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
@@ -64,5 +89,5 @@ label {
   display: block;
 }
 .btn-block {
-  width: 60%;
+  width: 100%;
 }

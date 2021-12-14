@@ -4,6 +4,9 @@
   margin: 0px;
   text-align: center;
 }
+#footer-bottom-last-div {
+  border-right: 0px solid white;
+}
 .footer-bottom-div {
   display: inline-block;
   border-right: 3px solid #57596f;
@@ -11,9 +14,7 @@
   text-align: center;
   margin: 20px 10px;
 }
-.footer-bottom div:last-child {
-  border-right: 0px solid white;
-}
+
 .footer-bottom {
   background-color: #25273a;
 }

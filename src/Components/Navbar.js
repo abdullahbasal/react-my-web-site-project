@@ -7,7 +7,6 @@ import NavbarList from "./NavbarList";
 import NavbarTop from "./NavbarTop";
 
 import LoginButton from "./LoginButton";
-import Login from "../Pages/Login";
 import React from "react";
 import { Link } from "react-router-dom";
 function Navbar() {

@@ -1,3 +1,8 @@
 .contactComp-container {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(92, 88, 88, 0.261);
+  border-radius: 25px;
+  background-color: #2f3144;
 }

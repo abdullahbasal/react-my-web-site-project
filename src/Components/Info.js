@@ -1,8 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/components/Info.css";
-import ShowMoreText from "react-show-more-text";
-import MyButton from "./MyButton";
+import "react-show-more-button/dist/module";
+import ShowMore from "react-show-more-button";
+
 export default function Info() {
   return (
     <Container className="info-container">
@@ -14,16 +15,17 @@ export default function Info() {
           />
         </Col>
       </Row>
-      <ShowMoreText
-        /* Default options */
-        lines={5}
-        more="Devamını Göster"
-        less="Daha Az Göster"
-        className="content-css"
-        anchorClass="my-anchor-css-class"
-        expanded={false}
-        width={1000}
-        truncatedEndingComponent={"... "}
+      <ShowMore
+        maxHeight={300}
+        className="show-more"
+        classNameButton="show-more-button"
+        styleButton={{
+          background: "red",
+        }}
+        style={{
+          color: "white",
+          background: "black",
+        }}
       >
         Türkiye'nin En Büyük İtem, Hesap, Skin, Epin Satış Sitesi | İtemsatış
         İtemSatış Türkiye'deki bilgisayar, konsol ve mobil oyuncularına en
@@ -215,7 +217,7 @@ export default function Info() {
         haberdar olabilirsiniz. Bunun yanı sıra takibe alarak bize destek
         olabilirsiniz. İnstagram Hesabımız Facebook Sayfamız Youtube Kanalımız
         Twitter Profilimiz Pinterest Hesabımız
-      </ShowMoreText>
+      </ShowMore>
     </Container>
   );
 }

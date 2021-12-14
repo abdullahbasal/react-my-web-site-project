@@ -14,3 +14,13 @@
   max-width: 100%;
   cursor: pointer;
 }
+.show-more {
+  background-color: #2f3144 !important;
+}
+.show-more-button {
+  background: #191a27 !important;
+}
+.show-more-button {
+  padding: 5px 20px !important;
+  width: auto !important;
+}
