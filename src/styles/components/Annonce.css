@@ -6,4 +6,6 @@
 }
 .annonce-container {
   text-align: center;
+  border: 3px solid;
+  border-image: linear-gradient(to right, orange, red, purple) 30;
 }

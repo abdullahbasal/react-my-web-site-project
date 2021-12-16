@@ -14,6 +14,7 @@ import discord from "../images/discord.png";
 import websitecarousel from "../images/websitecarousel.png";
 import youtube from "../images/youtube.png";
 import twitch from "../images/twitch.png";
+import account from "../images/account.png";
 
 function OwlCarouselRound() {
   return (
@@ -54,7 +55,7 @@ function OwlCarouselRound() {
           <img src={youtube} width={90} height={90}></img>
         </div>
         <div className="item">
-          <img src={valorant} width={90} height={90}></img>
+          <img src={account} width={90} height={90}></img>
         </div>
       </OwlCarousel>
     </div>

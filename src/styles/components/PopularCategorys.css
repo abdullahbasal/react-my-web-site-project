@@ -1,5 +1,7 @@
 .popular-category-div {
   text-align: center;
+  border: 5px solid
+    linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
 }
 .popular-categorys-container {
   margin-bottom: 20px;

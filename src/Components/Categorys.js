@@ -34,6 +34,17 @@ function Categorys() {
             <CategoryButton title="TAKIMLAR"></CategoryButton>
           </Col>
         </Row>
+        <Row>
+          <Col md="3">
+            <CategoryButton title="MOBİL OYUNLAR"></CategoryButton>
+          </Col>
+          <Col md="3">
+            <CategoryButton title="DİĞER OYUNLAR"></CategoryButton>
+          </Col>{" "}
+          <Col md="3">
+            <CategoryButton title="SOSYAL MEDYA İLANLARI"></CategoryButton>
+          </Col>
+        </Row>
       </Container>
     </>
   );

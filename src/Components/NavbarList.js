@@ -20,7 +20,7 @@ function NavbarList() {
         </Col>
         <Col className="navbar-col">
           <img className="list-img" src={HesapSatisSimge} />{" "}
-          <p className="navbar-list-p"> HESAP SATIŞ</p>
+          <p className="navbar-list-p"> HESAP İLAN</p>
         </Col>
         <Col className="navbar-col">
           <img className="list-img" src={BlogSimge} />{" "}

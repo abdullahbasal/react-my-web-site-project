@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import "../styles/components/LoginComp.css";
 import { useForm } from "react-hook-form";
@@ -56,7 +56,6 @@ export default function LoginComp() {
               Giriş Yap
             </button>{" "}
             <Link to="/register">
-              {" "}
               <button
                 type="submit"
                 style={{
